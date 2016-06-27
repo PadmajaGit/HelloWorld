@@ -38,4 +38,14 @@ public class AppTest
     	System.out.println("***************** 3 ****************");
         assertTrue( true );
     }
+    
+    public void testAppFail()
+    {
+    	System.out.println("***************** 3 ****************");
+      //  assertTrue( true );
+        fail("Dividing with zero should cause an exception!");
+    }
+    
+    
+    
 }
