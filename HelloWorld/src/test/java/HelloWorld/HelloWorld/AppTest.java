@@ -26,7 +26,7 @@ public class AppTest
         }
         else
         {
-        	System.out.println("**************else part *****1**************");
+        	System.out.println("************* 1*else part *****1**************");
         }
     }
 
