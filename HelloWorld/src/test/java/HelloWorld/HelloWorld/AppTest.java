@@ -19,6 +19,15 @@ public class AppTest
     {
         super( testName );
         System.out.println("*******************1**************");
+        int i=0;
+        if(i==0)
+        {
+        	assertTrue( true );
+        }
+        else
+        {
+        	assertTrue( false );
+        }
     }
 
     /**
