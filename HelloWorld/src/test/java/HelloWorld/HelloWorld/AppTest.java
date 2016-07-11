@@ -26,7 +26,7 @@ public class AppTest
         }
         else
         {
-        	assertTrue( false );
+        	System.out.println("**************else part *****1**************");
         }
     }
 
